@@ -1,15 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from "./Header";
-import Card from "./Card";
-import SocialLink from "./SocialLink";
+import SocialCard from "./components/SocialCard";
 
 const App = () => {
   return (
-    <div className="ui container segment d-flex flex-column align-items-center">
-      <Header />
-      <Card />
-      <SocialLink />
+    <div>
+      <SocialCard />
     </div>
   );
 };

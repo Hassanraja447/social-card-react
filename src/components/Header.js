@@ -3,7 +3,7 @@ import faker from "faker";
 
 const Header = () => {
   return (
-    <div className="ui comments d-flex ">
+    <div className="ui comments d-flex col-sm-8">
       <div className="comment">
         <a className="avatar" href="/">
           <img alt="user " src={faker.image.avatar()} />
@@ -24,7 +24,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <a href="/" className="ml-3 align-self-start">
+      <a href="/" className="ml-auto align-self-start">
         <i className="angle down icon" />
       </a>
     </div>

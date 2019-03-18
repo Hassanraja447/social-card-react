@@ -1,0 +1,6 @@
+.social-link ul {
+  list-style: none;
+}
+.social-link ul > li {
+  margin: 0 10px;
+}
